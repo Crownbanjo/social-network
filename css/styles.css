@@ -31,15 +31,13 @@ body {
   @media (max-width: 375px) {
     width: 280px;
     height: 90%;
-    
   }
 }
 p {
- 
   color: var(--green);
   font-weight: 600;
 }
-span{
+span {
   margin-bottom: 10px;
 }
 .wrapper {
@@ -67,9 +65,14 @@ span{
     text-decoration: none;
     font-weight: 600;
   }
+  a:hover {
+    color: var(--dark_grey);
+  }
 }
 
 button:hover {
   background-color: var(--green);
-  color: var(--dark_grey);
+  a {
+    color: var(--dark_grey);
+  }
 }
