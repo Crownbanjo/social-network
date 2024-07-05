@@ -55,8 +55,7 @@ span {
   width: 80%;
   background-color: var(--grey);
   border-radius: 10px;
-  border: 1px solid;
-  margin-bottom: 12px;
+ margin-bottom: 12px;
   font-size: 0.79rem;
 
   a {
