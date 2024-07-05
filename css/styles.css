@@ -29,15 +29,21 @@ body {
   gap: 10px;
   @media (max-width: 375px) {
     width: 280px;
+    overflow: hidden;
    
   }
 }
+.name{
+  margin-bottom: 10px;
+
+}
 p {
+  margin-bottom: 5px;
   color: var(--green);
   font-weight: 600;
 }
 span {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 .wrapper {
   margin: 20px;
@@ -50,7 +56,7 @@ span {
 .btn {
   width: 100%;
 }
-.btn button {
+.btn button{
   padding: 15px;
   width: 80%;
   background-color: var(--grey);
@@ -64,14 +70,12 @@ span {
     text-decoration: none;
     font-weight: 600;
   }
-  a:hover {
-    color: var(--dark_grey);
-  }
 }
 
 button:hover {
   background-color: var(--green);
   a {
     color: var(--dark_grey);
+  
   }
 }
