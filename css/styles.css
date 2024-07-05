@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url(./variables.css);
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: var(--dark_grey);
+  color: var(--white);
+  border-radius: 10px;
+  width: 350px;
+  height: 80%;
+  gap: 10px;
+  @media (max-width: 375px) {
+    width: 280px;
+    height: 90%;
+    
+  }
+}
+p {
+ 
+  color: var(--green);
+  font-weight: 600;
+}
+span{
+  margin-bottom: 10px;
+}
+.wrapper {
+  margin: 20px;
+}
+.image img {
+  border-radius: 50%;
+  width: 23%;
+  height: 23%;
+}
+.btn {
+  width: 100%;
+}
+.btn button {
+  padding: 15px;
+  width: 80%;
+  background-color: var(--grey);
+  border-radius: 10px;
+  border: 1px solid;
+  margin-bottom: 12px;
+  font-size: 0.79rem;
+
+  a {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 600;
+  }
+}
+
+button:hover {
+  background-color: var(--green);
+  color: var(--dark_grey);
+}
