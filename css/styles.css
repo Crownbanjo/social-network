@@ -66,4 +66,5 @@ span {
 button:hover {
   background-color: var(--green);
   color: var(--dark_grey);
+  font-weight: 600;
 }
